@@ -1,0 +1,16 @@
+import os
+import numpy as np
+import pandas as pd
+import glob
+import random
+import librosa
+import tensorflow as tf
+import matplotlib.pyplot as plt
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.models import Sequential
+from sklearn.preprocessing import LabelEncoder
+from tensorflow.keras.models import Model
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.layers import Input, Conv2D, BatchNormalization, Activation, MaxPooling2D, Dropout, Flatten, Dense
+from tensorflow.keras.optimizers import Adam
